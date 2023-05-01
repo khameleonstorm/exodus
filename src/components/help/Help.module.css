@@ -1,0 +1,172 @@
+.ctn{
+  width: 100%;
+  height: 130vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../assets/supportBg.jpg"), linear-gradient(180deg, #000000c8, #00000096);
+  background-size: 100%;
+  background-position: center;
+  text-align: center;
+}
+
+.title{
+  font-size: 4.5rem;
+  font-weight: 200;
+  margin-bottom: 30px; 
+  color: white;
+}
+
+.subtitle{
+  width: 80%;
+  font-size: 1.1rem;
+  font-weight: 200;
+  color: white;
+  margin-bottom: 30px; 
+}
+
+.content1{
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  gap: 20px;
+  padding: 0 10px;
+}
+
+.card{
+  width: 230px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  padding: 25px 0;
+  background-color: rgba(0, 16, 33, 0.7);
+}
+
+.card img{
+  width: 50px;
+}
+
+.card h3{
+  font-size: .9rem;
+  font-weight: 300;
+  color: white;
+}
+
+.content2{
+  width: 100%;
+  max-width: 1100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 100px 10px;
+  margin: 0 auto;
+}
+
+.content2 h2{
+  font-size: 2rem;
+  font-weight: 200;
+  color: white;
+  text-align: center;
+}
+
+.content2 p{
+  width: 70%;
+  font-size: 1rem;
+  font-weight: 200;
+  color: white;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.content2 .wrapper{
+  width: 100%;
+}
+
+.left{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.left h2{
+  font-size: 2rem;
+  font-weight: 300;
+  color: white;
+}
+
+.left p{
+  font-size: 1rem;
+  font-weight: 300;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.left svg{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  font-size: 3rem;
+  color: rgb(233, 233, 233);
+  background-color: rgb(39, 0, 197);
+  padding: 15px;
+}
+
+.left img{
+  width: 170px;
+}
+
+.left button{
+  width: 250px;
+  padding: 17px;
+  font-size: .7rem;
+  box-shadow: rgba(111, 57, 205, 0.3) 0px 10px 30px 0px;
+}
+
+@media screen and (max-width: 500px){
+.ctn{
+  height: auto;
+  padding: 150px 0 50px 0;
+  background-size: 600%;
+}
+
+.title{
+  font-size: 8.3vw;
+  font-weight: 400;
+  margin-bottom: 10px; 
+}
+
+.subtitle{
+  width: 90%;
+  font-size: .9rem;
+}
+
+.card{
+  width: 100%;
+}
+
+
+.content2 h2{
+  font-size: 7vw;
+  font-weight: 400;
+}
+
+.content2 p{
+  width: 90%;
+  font-size: .9rem;
+  margin-bottom: 30px;
+}
+}

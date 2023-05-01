@@ -1,0 +1,62 @@
+import invest from "../assets/sec3.png"
+
+
+export const plans = {
+  title: 'INVESTMENT',
+  subtitle: 'Invest in the future of the world',
+  title2: "PRICING",
+  subtitle2: "EXODUS EXPERTS PRICING",
+  image: invest,
+  link: '#',
+  plans: [
+  {
+    id: 1,
+    percent: 8,
+    min: 50,
+    max: 3000,
+    title: "TRIAL TRADE PLAN",
+    falsepoints: ["Management fee", "Deposit fee"],
+    truepoints: ["Pro Personalized Portfolio", "5% Referral Bonus", "ROI After 24 hours", "24/7 Customer Care"],
+    background: "#FFE600", 
+  },
+  {
+    id: 2,
+    percent: 15,
+    title: "PREMUIM TRADE PLAN",
+    min: 3000,
+    max: 6000,
+    falsepoints: ["Management fee", "Deposit fee"],
+    truepoints: ["Personalized Portfolio", "5% Referral Bonus", "ROI After 48 hours", "24/7 Customer Care"],
+    background: "#00A3FF",
+  },
+  {
+    id: 3,
+    percent: 17,
+    min: 6000,
+    max: 10000,
+    title: "EXPERT TRADE PLAN",
+    falsepoints: ["Management fee", "Deposit fee"],
+    truepoints: ["Personalized Portfolio", "5% Referral Bonus", "ROI After 5 days", "24/7 Customer Care"],
+    background: "#b4ff3b",   
+  },
+  {
+    id: 4,
+    percent: 20,
+    min: 10000,
+    max: 15000,
+    title: "VIP TRADE PLAN",
+    falsepoints: ["Management fee", "Deposit fee"],
+    truepoints: ["Personalized Portfolio", "5% Referral Bonus", "ROI After 7 days", "24/7 Customer Care"],
+    background: "#f67eff",    
+  },
+  {
+    id: 5,
+    percent: 9,
+    min: 20000,
+    max: 50000,
+    title: "MONTHLY TRADE PLAN",
+    falsepoints: ["Management fee", "Deposit fee"],
+    truepoints: ["Personalized Portfolio", "5% Referral Bonus", "ROI After 1 month", "24/7 Customer Care"],
+    background: "#ffb27e",    
+  },
+]};

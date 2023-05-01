@@ -1,0 +1,151 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+
+.content{
+  width: 100%;
+  max-width: 1100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.content h1{
+  font-size: 5rem;
+  font-weight: 200;
+  color: #fff;
+  text-align: center;
+}
+
+.content h2{
+  font-size: 1.5rem;
+  font-weight: 200;
+  color: #a5a5a5;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.content img{
+  width: 100%;
+}
+
+.access{
+  max-width: 100%;
+  width: 300px;
+  background-image: linear-gradient(309deg,#420be6,#a16bb3);
+  box-shadow: 0 10px 30px 0 rgba(111,57,205,.3);
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 1.6;
+  padding: 50px 30px 40px;
+  position: absolute;
+  left: -40px;
+  bottom: -40px;
+}
+
+.access p{
+  color: #fff;
+}
+
+.access a{
+  align-items: center;
+  background: hsla(0,0%,100%,.15);
+  color: hsla(0,0%,100%,.8);
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  font-weight: 500;
+  height: 44px;
+  letter-spacing: 1px;
+  line-height: 1.67;
+  margin-top: 30px;
+  padding: 0 20px;
+  text-transform: uppercase;
+}
+
+.access a span{
+  font-size: 2rem;
+}
+
+.access a:hover{
+  background: hsla(0,0%,100%,.25);
+}
+
+.list{
+  width: 100%;
+  max-width: 1100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 150px 0;
+}
+
+.list .item{
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  text-align: center;
+}
+
+.list .item:nth-child(2){
+  border-right: none;
+  border-right: 0.5px solid #383838;
+  border-left: 0.5px solid #383838;
+  padding: 0 20px;
+}
+
+.list .item svg{
+  color: #a5a5a5;
+  font-size: 3rem;
+}
+
+.list .item b{
+  color: #383838;
+  font-size: 1rem;
+}
+
+.list .item p{
+  color: #ffffff;
+  font-size: 1.3rem;
+  font-weight: 200;
+}
+
+@media screen and (max-width: 900px){
+.container{
+  padding: 50px 20px;
+}
+
+.content h1{
+  font-size: 7vw;
+}
+
+.content h2{
+  font-size: 3vw;
+}
+
+.access{
+  position: static;
+  width: 100%;
+}
+
+.list{
+  flex-direction: column;
+  gap: 30px;
+}
+
+.list .item:nth-child(2){
+  border-right: none;
+  border-left: none;
+}
+
+}

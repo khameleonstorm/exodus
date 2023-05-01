@@ -1,0 +1,33 @@
+.ctn{
+  width: 100%;
+}
+
+.users{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  border-bottom: .5px solid rgba(20, 0, 27, 0.05);
+  border-top: .5px solid rgba(20, 0, 27, 0.05);
+}
+
+.users:hover{
+  background-color: rgba(20, 0, 27, 0.05);
+  cursor: pointer;
+}
+
+.users p{
+  transition: all ease-in-out .3s;
+}
+
+.users img{
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+  background-color: rgb(246, 220, 255);
+}
+
+@media screen and (max-width: 600px){
+}

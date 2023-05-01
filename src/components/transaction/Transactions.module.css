@@ -1,0 +1,67 @@
+.ctn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.card{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.card:hover{
+  background-color: rgb(252, 250, 255);
+}
+
+.info_left{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 10px;
+}
+
+.info_left p:nth-child(1){
+  font-weight: 600;
+  color: #1f1f1f;
+}
+
+.info_left p:nth-child(2){
+  font-weight: 200;
+  color: #2e2e2e;
+}
+
+.info_left p:nth-child(3){
+  font-weight: 200;
+  color: #000000;
+}
+
+.info_right{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 5px;
+}
+
+.pending{
+  font-size: 10px;
+  color: #ff8c00;
+}
+
+.approved{
+  font-size: 10px;
+  color: #00ee18;
+}
+
+.declined{
+  font-size: 10px;
+  color: #ff2727;
+}
+

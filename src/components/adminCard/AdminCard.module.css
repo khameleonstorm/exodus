@@ -1,0 +1,86 @@
+.ctn{
+  width: 100%;
+  display: flex;
+  align-items: right;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  gap: 20px;
+  background: #fffffc;
+}
+
+.card{
+  width: 100%;
+  max-width: 270px;
+  background-color: rgb(248, 244, 255);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  transition: all 0.3s ease;
+  border-top: .5px solid #d92eff;
+}
+
+.card:hover{
+  transform: scale(1.05);
+}
+
+.icons{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.card svg{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  font-size: 3rem;
+  color: #fcfcfc;
+  padding: 15px;
+}
+
+.card:nth-child(1) svg{
+  background: rgb(119, 0, 255);
+}
+
+.card:nth-child(2) svg{
+  background: #FFE600;
+}
+
+.card:nth-child(3) svg{
+  background: #00A3FF;
+}
+
+.card:nth-child(4) svg{
+  background: #b4ff3b;
+}
+
+.card:nth-child(5) svg{
+  background: #f67eff;
+}
+
+.card:nth-child(6) svg{
+  background: #ffb27e;
+}
+
+.card h1{
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.card h2{
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 500px){
+.ctn{
+  padding: 15px;
+}
+
+.card{
+  max-width: 100%;
+}
+}

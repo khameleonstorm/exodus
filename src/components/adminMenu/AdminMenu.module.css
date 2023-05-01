@@ -1,0 +1,70 @@
+.ctn{
+  width: 250px;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+  display: grid;
+  place-items: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  position: relative;
+}
+
+.close{
+  position: absolute;
+  top: 40px;
+  right: 30px;
+  font-size: 2rem;
+  display: none;
+}
+
+.ctn img{
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  background-color: rgb(246, 220, 255);
+  position: absolute;
+  top: 30px;
+  left: 10px;
+}
+
+.wrapper{
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  font-weight: 400;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: all ease-in .3s;
+}
+
+.wrapper a:hover{
+  background-color: rgb(246, 220, 255);
+}
+
+.wrapper a:hover svg{
+  font-size: 1.8rem;
+}
+
+.wrapper svg{
+  font-size: 1.5rem;
+  transition: all ease-in .2s;
+}
+
+.active{
+  background-color: rgb(246, 220, 255);
+}
+
+@media screen and (max-width: 600px){ 
+.close{
+  display: block;
+}
+}

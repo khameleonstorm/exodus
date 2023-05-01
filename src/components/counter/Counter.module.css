@@ -1,0 +1,34 @@
+.ctn{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.ctn h1{
+  font-size: 9rem;
+  font-weight: 300;
+  color: hsla(0,0%,100%,.3);
+}
+
+.ctn p{
+  font-size: 2rem;
+  font-weight: 200;
+  color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 550px){
+.ctn{
+  padding: 0 20px;
+}
+
+.ctn h1{
+  font-size: 7rem;
+}
+
+.ctn p{
+  font-size: 1.5rem;
+}
+}

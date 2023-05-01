@@ -1,0 +1,81 @@
+.ctn{
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.ctn img{
+  width: 100%;
+  border-radius: 10px;
+}
+
+.content{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background-image: linear-gradient(90deg, #000000a7, #57575772), url(../../assets/promoleads-bg-btc.webp);
+  background-size: cover;
+  border-radius: 50px;
+  text-align: center;
+  position: relative;
+  padding: 40px 20px;
+  margin: 50px 0;
+}
+
+.content h1{
+  font-size: 3rem;
+  font-weight: 300;
+  color: white;
+  line-height: 1;
+  margin-bottom: 10px;
+}
+
+.content p{
+  font-size: 1.2rem;
+  font-weight: 200;
+  color: rgba(255, 255, 255, 0.817);
+}
+
+.content img{
+  width: 100px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.content img{
+  width: 60px
+}
+
+.content button{
+  font-size: 13px;
+  padding: 18px;
+  background-image: linear-gradient(90deg, #ffb300, #f69800);
+}
+
+@media screen and (max-width: 550px){
+.content h1{
+  font-size: 1.5rem;
+  padding-top: 20px;
+}
+
+.content p{
+  font-size: 1rem;
+}
+
+.content button{
+  width: fit-content;
+  font-size: 13px;
+  padding: 18px;
+  background-image: linear-gradient(90deg, #ffb300, #f69800);
+}
+}
